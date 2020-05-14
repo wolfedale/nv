@@ -1,6 +1,6 @@
 package tasks
 
-type TaskInFace interface {
+type TasksIFace interface {
 	Create() error
 	Edit() error
 	Delete() error
